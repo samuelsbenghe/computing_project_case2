@@ -44,7 +44,6 @@ function Needles() {
                 //draw a rectangle at that location and size
                 rect(x, y, w, h);
 
-                // Calculate the center x and bottom y coordinates
                 var centreX = x + w / 2;
                 var bottomY = y + h;
                 var freqLabel = this.frequencyBins[currentBin];
